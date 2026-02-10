@@ -1,79 +1,79 @@
-# Simón dice: ¡GUAU! 🐶🔊✨
+# Simon Says: WOOF! 🐶🔊✨
 
-**Integrantes del Grupo 01** 🌟  
+**Group 01 Members** 🌟  
 - Adrián Muñoz Lorenzo  
 - Luis Gómez Del Moral  
 - Sergio Alcántara Escudero  
 - Coraima Mera Rodriguez  
 
-## 1. Idea General 🎲
+## 1. General Idea 🎲
 
-- **Género:** Puzzle / Memoria 🧠  
-- **Plataforma:** PC / Web 💻🌐  
-- **Público objetivo:** Casual / Infantil 👶😄  
-- **Descripción:** El jugador debe repetir una secuencia de acciones realizadas por un perro guía. A medida que avanza, la secuencia se vuelve más larga y rápida. 🐕‍🦺➡️📈
+- **Genre:** Puzzle / Memory 🧠  
+- **Platform:** PC / Web 💻🌐  
+- **Target Audience:** Casual / Children 👶😄  
+- **Description:** The player must repeat a sequence of actions performed by a guide dog. As the game progresses, the sequence becomes longer and faster. 🐕‍🦺➡️📈
 
-## 2. Jugador 🧑‍🏫
+## 2. Player 🧑‍🏫
 
-- **Rol:** El jugador actúa como el dueño o entrenador del perro pixelado. 🐶❤️  
-- **Objetivo:** Memorizar y ejecutar correctamente la secuencia de comandos para acumular la mayor puntuación posible (High Score) y desbloquear nuevas características estéticas. 🏆✨  
-- **Habilidades requeridas:**  
-  - Memoria a corto plazo: Para retener la secuencia de acciones que se acumulan ronda tras ronda. 🧠💭  
-  - Reflejos: Para introducir los comandos dentro del tiempo límite antes de que la barra de progreso se agote. ⚡⌛  
-  - Ritmo: Para mantener el multiplicador de "felicidad" activo respondiendo con fluidez. 🎶😊
+- **Role:** The player acts as the owner or trainer of the pixelated dog. 🐶❤️  
+- **Objective:** Memorize and correctly execute the sequence of commands to accumulate the highest score (High Score) and unlock new aesthetic features. 🏆✨  
+- **Skills required:**  
+  - Short-term memory: To retain the sequence of actions that accumulate round by round. 🧠💭  
+  - Reflexes: To input commands within the time limit before the progress bar runs out. ⚡⌛  
+  - Rhythm: To keep the "happiness" multiplier active by responding smoothly. 🎶😊
 
-## 3. Rondas 🔄
+## 3. Rounds 🔄
 
-En cada ronda tendríamos en cuenta lo siguiente:  
-- **Fase de Observación:** El perro realiza una serie de acciones (animaciones) de forma aleatoria. 👀🐕  
-- **Fase de Entrada:** El jugador debe repetir la secuencia presionando las teclas asignadas. ✋⌨️  
-- **Crecimiento:** Cada ronda ganada añade un paso nuevo a la secuencia actual. 📏➕
+In each round, we consider the following:  
+- **Observation Phase:** The dog performs a series of random actions (animations). 👀🐕  
+- **Input Phase:** The player must repeat the sequence by pressing the assigned keys. ✋⌨️  
+- **Growth:** Each round won adds a new step to the current sequence. 📏➕
 
-## 4. Mecánica del juego ⚙️
+## 4. Game Mechanics ⚙️
 
-El núcleo del juego se basa en dos fases que se repiten en bucle:
+The core of the game is based on two repeating phases:
 
-1. **Fase de Observación** 👀  
-   El juego ejecuta una serie de animaciones (ej: "¡Ladra, Salta, Siéntate!") 🗣️⬆️🪑
+1. **Observation Phase** 👀  
+   The game performs a series of animations (e.g., "Bark, Jump, Sit!") 🗣️⬆️🪑
 
-2. **Fase de Acción** ▶️  
-   El jugador debe presionar las teclas correctas en el mismo orden.  
-   Si fallas, el perro pone una animación de confusión. 😵‍💫🐶
+2. **Action Phase** ▶️  
+   The player must press the correct keys in the same order.  
+   If they fail, the dog performs a confused animation. 😵‍💫🐶
 
-## 5. Uso de Sprites 🖼️
+## 5. Use of Sprites 🖼️
 
-| Característica       | Animación Utilizada              | Propósito en el Diseño                              |
-|----------------------|----------------------------------|-----------------------------------------------------|
-| Estado de Espera     | idlesprite.png                   | El perro respira y mueve la colita mientras espera que el juego empiece. 🐾😌 |
-| Comando de Voz       | barksprite with lines.png        | Se usa cuando el comando requiere que el perro "ladre". 🗣️🔊 |
-| Comando Físico       | jumpsprite.png                   | Ideal para comandos de "acción" o agilidad. ⬆️💨 |
-| Modo Descanso        | sitsprite.png                    | Aparece entre rondas o cuando el jugador tarda mucho en responder. 🪑💤 |
-| Final del Juego      | poopsprite.png                   | Una forma graciosa de decir "Game Over" si el jugador pierde la racha. 💩😂 |
+| Feature           | Animation Used                  | Purpose in the Design                                |
+|-------------------|----------------------------------|-----------------------------------------------------|
+| Idle State        | idlesprite.png                  | The dog breathes and wags its tail while waiting for the game to start. 🐾😌 |
+| Voice Command     | barksprite with lines.png       | Used when the command requires the dog to "bark". 🗣️🔊 |
+| Physical Command  | jumpsprite.png                  | Ideal for "action" or agility commands. ⬆️💨 |
+| Rest Mode         | sitsprite.png                   | Appears between rounds or when the player takes too long to respond. 🪑💤 |
+| Game Over         | poopsprite.png                  | A funny way to say "Game Over" if the player loses the streak. 💩😂 |
 
-## 6. Progresión y Recompensas 🚀
+## 6. Progression and Rewards 🚀
 
-- **Multiplicador de "Felicidad":** Si el jugador responde muy rápido, el perro cambia de la animación walk a run para mostrar que está emocionado. 🏃‍♂️🐶😍  
-- **Puntaje Máximo (High Score):** Guardar el récord de cuántos pasos logró recordar el jugador. 🏅📊  
-- **Desbloqueables:** Por ejemplo, si llegas a la ronda 10, el perro puede ladrar con una animación diferente o cambiar de color mediante código. 🎨🔓
+- **"Happiness" Multiplier:** If the player responds very quickly, the dog changes from walking animation to running to show it’s excited. 🏃‍♂️🐶😍  
+- **Maximum Score (High Score):** Save the record of how many steps the player managed to remember. 🏅📊  
+- **Unlockables:** For instance, if you reach round 10, the dog may bark with a different animation or change color through a code feature. 🎨🔓
 
-## 7. Feedback Visual y Sonoro 📢🎨
+## 7. Visual and Sound Feedback 📢🎨
 
-Es vital que el jugador sepa si lo está haciendo bien o mal, para eso tendremos en cuenta lo siguiente:
+It is vital for the player to know whether they are doing well or poorly. To achieve this, we will consider the following:
 
-- **Acierto:** Si el jugador presiona la tecla correcta, el perro reproduce la animación de forma rápida y breve. ✅✨  
-- **Error:** Si el jugador falla, puedes usar la animación "Sit" con un efecto de partículas de "humo" o signos de interrogación para mostrar confusión. ❓😖  
-- **Tiempo Límite:** Añade una barra de progreso que baje lentamente; si no presionas la tecla antes de que se agote, el perro se distrae (puedes usar la animación "Poop" como un castigo divertido). ⏳💨😂
+- **Correct Action:** If the player presses the correct key, the dog quickly performs the animation. ✅✨  
+- **Mistake:** If the player fails, you can use the "Sit" animation with a "smoke" particle effect or question marks to show confusion. ❓😖  
+- **Time Limit:** Add a progress bar that slowly depletes; if you don’t press the key before this ends, the dog gets distracted (you can use the "Poop" animation as a funny punishment). ⏳💨😂
 
-## 8. Interfaz 🖥️
+## 8. Interface 🖥️
 
-En la interfaz planteada nos gustaría incorporar:
+In the proposed interface, we’d like to include:
 
-- **Menú principal:** Botón de jugar y salir. ▶️🚪  
+- **Main Menu:** Button to play and exit. ▶️🚪  
 
-- **Pantalla de juego:**  
-  - Contador de Pasos: Un número grande que indique en qué paso de la secuencia vas (ej: 3/5). 🔢  
-  - Puntuación máxima. 🏆  
-  - Guía de Teclas: Un pequeño icono en pantalla que recuerde al jugador: [J] Ladrar, [K] Saltar, etc. ⌨️🪧  
-  - Barra de Energía: Una barra que se llena con cada acierto y te da una "vida" extra si completas una secuencia perfecta. ❤️⚡
+- **Game Screen:**  
+  - Step Counter: A large number indicating which step of the sequence you’re at (e.g., 3/5). 🔢  
+  - Maximum Score. 🏆  
+  - Key Guide: A small on-screen icon reminding the player: [J] Bark, [K] Jump, etc. ⌨️🪧  
+  - Energy Bar: A bar that fills up with each correct action and gives you an "extra life" if you complete a perfect sequence. ❤️⚡
 
-- **Game Over:** Un mensaje que diga ¡Oh, no! 😱
+- **Game Over:** A message saying Oh no! 😱
