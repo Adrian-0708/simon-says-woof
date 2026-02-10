@@ -11,8 +11,9 @@ config_version=5
 [application]
 
 config/name="Simon says:  WOOF!"
+run/main_scene="uid://bglucmjfr8hi5"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://bjbjvkled7o5y"
 
 [physics]
 
