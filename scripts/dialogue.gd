@@ -14,7 +14,6 @@ var ordenes = {
 func _ready():
 	randomize()
 	new_order()
-	#actualizar_puntos()
 
 func _process(_delta):
 	if current_order != "":
@@ -25,6 +24,6 @@ func _process(_delta):
 			#actualizar_puntos()
 
 func new_order():
-	var claves = ordenes.keys()
-	current_order = claves[randi() % claves.size()]
+	var names = ordenes.keys()
+	current_order = names[randi() % names.size()]
 	label.text = "Simon dice: " + current_order
