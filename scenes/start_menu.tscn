@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bglucmjfr8hi5"]
 
-[ext_resource type="Script" uid="uid://lh2il80i8ju3" path="res://scripts/start_menu.gd" id="1_ouf4f"]
+[ext_resource type="Script" uid="uid://lh2il80i8ju3" path="res://scripts/menu.gd" id="1_ouf4f"]
 [ext_resource type="FontFile" uid="uid://tlcvd5bq06p5" path="res://fonts/song_of_valentine_sans/Song of Valentine Sans.otf" id="2_thu50"]
 
 [node name="Control" type="Control" unique_id=154517804]
@@ -33,10 +33,10 @@ text = "SIMON SAYS: WOOF!"
 
 [node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=363988233]
 layout_mode = 0
-offset_left = 365.0
-offset_top = 345.0
-offset_right = 780.0
-offset_bottom = 436.0
+offset_left = 367.0
+offset_top = 361.0
+offset_right = 782.0
+offset_bottom = 452.0
 theme_override_constants/separation = 80
 
 [node name="Button" type="Button" parent="HBoxContainer" unique_id=1784545782]
