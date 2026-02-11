@@ -112,7 +112,7 @@ layout_mode = 2
 theme_override_constants/outline_size = 5
 theme_override_constants/shadow_outline_size = 20
 theme_override_font_sizes/font_size = 40
-text = "Hacer caca"
+text = "Hacer popo"
 
 [node name="TextureRect4" type="TextureRect" parent="VBoxContainer/Label4" unique_id=1979134796]
 layout_mode = 0
