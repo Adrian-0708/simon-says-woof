@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bglucmjfr8hi5"]
 
 [ext_resource type="Script" uid="uid://lh2il80i8ju3" path="res://scripts/menu.gd" id="1_ouf4f"]
-[ext_resource type="Texture2D" uid="uid://cp0iwih3djj36" path="res://assets/background map/menu.webp" id="2_m7x51"]
+[ext_resource type="Texture2D" uid="uid://cp0iwih3djj36" path="res://assets/background/menu.webp" id="2_m7x51"]
 [ext_resource type="FontFile" uid="uid://tlcvd5bq06p5" path="res://fonts/song_of_valentine_sans/Song of Valentine Sans.otf" id="2_thu50"]
 
 [node name="Control" type="Control" unique_id=154517804]
