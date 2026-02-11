@@ -10,14 +10,13 @@ var ordenes = {
 }
 
 @onready var label = $Label
-@onready var points_label = $PuntosLabel
 
 func _ready():
 	randomize()
 	new_order()
 	#actualizar_puntos()
 
-func _process(delta):
+func _process(_delta):
 	if current_order != "":
 		var correct_action = ordenes[current_order]
 		if Input.is_action_just_pressed(correct_action): # Falta enlazarlo. Si la acción es correcta
