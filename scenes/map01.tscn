@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cg21cub55sa0i"]
 
 [ext_resource type="Texture2D" uid="uid://ca4ij0fk7ye4o" path="res://assets/background/map/summer/5.png" id="1_34vk4"]
+[ext_resource type="Texture2D" uid="uid://c0u22kj7o54mn" path="res://assets/dialogue/pngtree-blue-stripe-bubble-download-image_1250698-removebg-preview.png" id="2_jjobw"]
 [ext_resource type="PackedScene" uid="uid://dsvxue00vhnhp" path="res://scenes/dog.tscn" id="2_rrcok"]
 [ext_resource type="PackedScene" uid="uid://dxci46ytk0lnm" path="res://scenes/person.tscn" id="3_jjobw"]
 
@@ -19,6 +20,31 @@ grow_vertical = 2
 size_flags_horizontal = 4
 texture = ExtResource("1_34vk4")
 expand_mode = 1
+
+[node name="dialogue" type="TextureRect" parent="." unique_id=1799761420]
+offset_left = 119.0
+offset_top = -91.0
+offset_right = 787.0
+offset_bottom = 269.0
+texture = ExtResource("2_jjobw")
+flip_h = true
+
+[node name="Label" type="Label" parent="dialogue" unique_id=2132610484]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.178
+anchor_top = 0.25300002
+anchor_right = -0.178
+anchor_bottom = 0.25300002
+offset_left = 198.90399
+offset_top = 37.91999
+offset_right = 718.904
+offset_bottom = 134.91998
+theme_override_colors/font_outline_color = Color(0, 0.39607844, 0.75686276, 1)
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 20
+theme_override_font_sizes/font_size = 18
+text = "DIALOGUE"
 
 [node name="CharacterBody2D" parent="." unique_id=983513738 instance=ExtResource("2_rrcok")]
 position = Vector2(602, 360)
