@@ -10,14 +10,14 @@ func _physics_process(delta: float) -> void:
 	var input_direction = Vector2.ZERO
 	
 	# MOTION
-	if Input.is_key_pressed(KEY_LEFT):
-		input_direction.x -= 1
-	if Input.is_key_pressed(KEY_RIGHT):
-		input_direction.x += 1
-	if Input.is_key_pressed(KEY_UP):
-		input_direction.y -= 1
-	if Input.is_key_pressed(KEY_DOWN):
-		input_direction.y += 1
+	#if Input.is_key_pressed(KEY_LEFT):
+		#input_direction.x -= 1
+	#if Input.is_key_pressed(KEY_RIGHT):
+		#input_direction.x += 1
+	#if Input.is_key_pressed(KEY_UP):
+		#input_direction.y -= 1
+	#if Input.is_key_pressed(KEY_DOWN):
+		#input_direction.y += 1
 
 	input_direction = input_direction.normalized()
 
