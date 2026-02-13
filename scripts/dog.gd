@@ -66,7 +66,7 @@ func _physics_process(delta: float) -> void:
 func play_confusion():
 	is_confused = true
 	velocity = Vector2.ZERO
-	sprite.play("confusing")
+	sprite.play("dead")
 	
 	await get_tree().create_timer(1.0).timeout
 	
